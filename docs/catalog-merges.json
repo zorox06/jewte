@@ -1,0 +1,222 @@
+[
+  {
+    "merged": "Row-major and column-major representation",
+    "into": "Row-major and column-major arrays",
+    "from": "ds"
+  },
+  {
+    "merged": "Two-dimensional address calculations with arbitrary lower bounds",
+    "into": "Multidimensional array addressing",
+    "from": "ds"
+  },
+  {
+    "merged": "Multidimensional strides and element sizes",
+    "into": "Multidimensional array addressing",
+    "from": "ds"
+  },
+  {
+    "merged": "Repeated insertion vs bottom-up heap construction",
+    "into": "Building a heap in linear time",
+    "from": "ds"
+  },
+  {
+    "merged": "Traversal algorithms and graph properties - connect to Algorithms",
+    "into": "BFS and DFS",
+    "from": "ds"
+  },
+  {
+    "merged": "Loop invariants and termination arguments",
+    "into": "Loop invariants",
+    "from": "algorithms"
+  },
+  {
+    "merged": "Nested loops with independent bounds",
+    "into": "Analysis of nested loops",
+    "from": "algorithms"
+  },
+  {
+    "merged": "Nested loops with dependent bounds",
+    "into": "Analysis of nested loops",
+    "from": "algorithms"
+  },
+  {
+    "merged": "Recursion depth vs total number of recursive calls",
+    "into": "Recursion depth and call count",
+    "from": "algorithms"
+  },
+  {
+    "merged": "Iterative and recursive binary search",
+    "into": "Binary search",
+    "from": "algorithms"
+  },
+  {
+    "merged": "Heap sort and heap-construction cost",
+    "into": "Heap sort",
+    "from": "algorithms"
+  },
+  {
+    "merged": "Overflow detection from signs and carry bits",
+    "into": "Arithmetic overflow detection",
+    "from": "digital"
+  },
+  {
+    "merged": "Endianness and alignment",
+    "into": "Endianness",
+    "from": "coa"
+  },
+  {
+    "merged": "Add/subtract datapaths and overflow detection",
+    "into": "Arithmetic overflow detection",
+    "from": "coa"
+  },
+  {
+    "merged": "Carry propagation and carry-lookahead connection to Digital Logic",
+    "into": "Carry-lookahead adders",
+    "from": "coa"
+  },
+  {
+    "merged": "Signed multiplication and Booth arithmetic connection",
+    "into": "Booth's multiplication algorithm",
+    "from": "coa"
+  },
+  {
+    "merged": "Interrupt-driven I/O",
+    "into": "Programmed, interrupt-driven and DMA I/O",
+    "from": "coa"
+  },
+  {
+    "merged": "DMA transfers and CPU involvement",
+    "into": "Programmed, interrupt-driven and DMA I/O",
+    "from": "coa"
+  },
+  {
+    "merged": "Supporting: Mealy/Moore transducers and output traces",
+    "into": "Mealy and Moore machines",
+    "from": "toc"
+  },
+  {
+    "merged": "Parse trees and their yields",
+    "into": "Grammar derivations and parse trees",
+    "from": "toc"
+  },
+  {
+    "merged": "CFG notation, derivations and parse trees",
+    "into": "Grammar derivations and parse trees",
+    "from": "compiler"
+  },
+  {
+    "merged": "Ambiguity and dangling-else grammars",
+    "into": "Grammar ambiguity and dangling else",
+    "from": "compiler"
+  },
+  {
+    "merged": "Precedence and associativity from grammar/parse tree",
+    "into": "Operator precedence and associativity in grammars",
+    "from": "compiler"
+  },
+  {
+    "merged": "Nullable nonterminals",
+    "into": "Nullable nonterminals",
+    "from": "compiler"
+  },
+  {
+    "merged": "Static, stack and heap allocation",
+    "into": "Stack, heap and static storage",
+    "from": "compiler"
+  },
+  {
+    "merged": "Activation trees and activation records",
+    "into": "Function calls and activation records",
+    "from": "compiler"
+  },
+  {
+    "merged": "Why recursion does not necessarily require heap allocation",
+    "into": "Recursion and runtime storage",
+    "from": "compiler"
+  },
+  {
+    "merged": "CPU, RAM, SSD/HDD and I/O devices",
+    "into": "Computer components and buses",
+    "from": "os"
+  },
+  {
+    "merged": "What happens when a program runs",
+    "into": "C program execution",
+    "from": "os"
+  },
+  {
+    "merged": "Instructions and instruction execution",
+    "into": "Instruction execution cycle",
+    "from": "os"
+  },
+  {
+    "merged": "Registers, program counter and stack pointer",
+    "into": "CPU registers and program counter",
+    "from": "os"
+  },
+  {
+    "merged": "Memory addresses and address spaces",
+    "into": "Byte-addressable and word-addressable memory",
+    "from": "os"
+  },
+  {
+    "merged": "Interrupts and exception basics",
+    "into": "Interrupt and exception foundations",
+    "from": "os"
+  },
+  {
+    "merged": "Thread-private PC, registers and stack vs shared process resources",
+    "into": "Thread context and shared resources",
+    "from": "os"
+  },
+  {
+    "merged": "Multithreading advantages and limitations",
+    "into": "Process and thread comparison",
+    "from": "os"
+  },
+  {
+    "merged": "Mutual exclusion",
+    "into": "Mutual exclusion",
+    "from": "os"
+  },
+  {
+    "merged": "Serial TLB/MMU/cache access vs explicitly overlapping lookups",
+    "into": "Cache and virtual-memory integration",
+    "from": "os"
+  },
+  {
+    "merged": "Polling vs interrupts",
+    "into": "Programmed, interrupt-driven and DMA I/O",
+    "from": "os"
+  },
+  {
+    "merged": "Programmed I/O vs DMA",
+    "into": "Programmed, interrupt-driven and DMA I/O",
+    "from": "os"
+  },
+  {
+    "merged": "Total disk access time",
+    "into": "Disk geometry and access time",
+    "from": "os"
+  },
+  {
+    "merged": "Per-process descriptor tables vs system open-file table",
+    "into": "File descriptors and open-file tables",
+    "from": "os"
+  },
+  {
+    "merged": "Shared file offsets after fork()/descriptor duplication",
+    "into": "File offsets and fork",
+    "from": "os"
+  },
+  {
+    "merged": "Wait-for graphs and deadlock detection",
+    "into": "Wait-for graphs and deadlock detection",
+    "from": "db"
+  },
+  {
+    "merged": "Multiplexing/demultiplexing using ports",
+    "into": "Interprocess sockets",
+    "from": "cn"
+  }
+]

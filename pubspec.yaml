@@ -1,0 +1,30 @@
+name: jewte
+description: Jewte - a focused GATE CS topic library
+publish_to: none
+version: 1.1.0+3
+environment:
+  sdk: ^3.13.4
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/catalog.json
+    - assets/fonts/Manrope-OFL.txt
+    - assets/fonts/DMSerifDisplay-OFL.txt
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+    - family: DMSerif
+      fonts:
+        - asset: assets/fonts/DMSerifDisplay.ttf

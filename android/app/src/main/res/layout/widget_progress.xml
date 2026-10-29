@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="18dp" android:background="@drawable/widget_bg_forest">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="24dp" android:gravity="center_vertical">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_jewte_foreground" android:contentDescription="Jewte" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="jewte" android:textColor="#F6F5EF" android:textSize="15sp" android:textStyle="bold" />
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="YOUR PROGRESS" android:gravity="end" android:textSize="9sp" android:letterSpacing="0.1" android:textColor="#C4D2C3" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:baselineAligned="false">
+        <TextView android:id="@+id/widget_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:fontFamily="sans-serif-medium" android:textSize="38sp" android:textColor="#D4EC85" android:includeFontPadding="false" />
+        <TextView android:id="@+id/widget_completed" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:layout_marginStart="14dp" android:text="0 of 1567 concepts" android:textSize="12sp" android:textColor="#E4EBDD" android:maxLines="2" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/widget_progress_bar" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="4dp" android:progressTint="#D4EC85" android:progressBackgroundTint="#496555" android:max="1567" android:progress="0" android:layout_marginBottom="12dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp" android:gravity="center_vertical">
+        <TextView android:id="@+id/widget_remaining" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="1567 remaining  ·  0 saved" android:textColor="#C4D2C3" android:textSize="10sp" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Library  ↗" android:textColor="#F6F5EF" android:textSize="11sp" android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

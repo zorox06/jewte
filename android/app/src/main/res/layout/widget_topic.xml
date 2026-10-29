@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="18dp" android:background="@drawable/widget_bg_forest">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="20dp" android:gravity="center_vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NEXT CONCEPT" android:textColor="#C4D2C3" android:textSize="9sp" android:letterSpacing="0.12" />
+        <TextView android:id="@+id/widget_topic_subject" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:gravity="end" android:text="C Programming" android:textSize="10sp" android:textColor="#D4EC85" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+    <TextView android:id="@+id/widget_topic_title" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:text="C program execution" android:textColor="#F6F5EF" android:textSize="19sp" android:textStyle="bold" android:maxLines="2" android:ellipsize="end" android:includeFontPadding="false" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="40dp" android:baselineAligned="false">
+        <TextView android:id="@+id/widget_continue" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:gravity="center" android:text="Open concept" android:textColor="#F6F5EF" android:textSize="11sp" android:textStyle="bold" android:background="@drawable/widget_action_forest" />
+        <TextView android:id="@+id/widget_youtube" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:layout_marginStart="10dp" android:gravity="center" android:text="YouTube  ↗" android:textColor="#202D25" android:textSize="11sp" android:textStyle="bold" android:background="@drawable/widget_action_lime" />
+    </LinearLayout>
+</LinearLayout>

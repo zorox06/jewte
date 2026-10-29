@@ -1,0 +1,4 @@
+<resources>
+    <string name="widget_progress_description">Your checklist progress, remaining concepts and saved topics at a glance.</string>
+    <string name="widget_topic_description">Continue your next concept or search its name directly on YouTube.</string>
+</resources>

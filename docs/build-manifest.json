@@ -1,0 +1,27 @@
+{
+  "application": "Jewte",
+  "version": "1.1.0+3",
+  "package": "app.jewte.jewte",
+  "file": "C:\\Users\\newar\\Desktop\\Jewte.apk",
+  "bytes": 51687690,
+  "sha256": "98a43b28adb272742ced64bd97b691273fefd63afa32f543f12b0126787d3131",
+  "subjects": 10,
+  "canonicalTopics": 1567,
+  "nicheTopics": 41,
+  "flutterTestsPassed": 16,
+  "androidIntegrationTestsPassed": 1,
+  "staticAnalysis": "No issues found",
+  "signature": "Verified APK Signature Scheme v2; same signer as previous delivered APK",
+  "signerCertificateSha256": "ce32c0f129c13f0a96aefb3aaad9041a081b6057e7f9fb30909fed027cdc4f40",
+  "minimumAndroidAPI": 24,
+  "targetAndroidAPI": 36,
+  "abis": [
+    "arm64-v8a",
+    "armeabi-v7a",
+    "x86_64"
+  ],
+  "revision": "Two native resizable home-screen widgets and gallery; exact-topic YouTube queries; independent retained tab scroll state; lazy niche/saved lists; reduced theme rebuilds; shorter motion respecting accessibility settings.",
+  "catalogueCompatibility": "All 1567 IDs and titles match the previous delivered APK.",
+  "androidReleaseSmokeTest": "Install Success; cold topic intent and warm library/topic intents returned Status ok and rendered the expected destination. Both providers registered with Android.",
+  "physicalDeviceTested": false
+}
